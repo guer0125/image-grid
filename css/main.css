@@ -60,27 +60,27 @@ img {
 
 @media only screen and (min-width: 38em) {
 
- .photo:nth-child(5) {
-   display: none;
- }
+  .photo:nth-child(5) {
+    display: none;
+  }
 
- .photo:nth-child(2),
- .photo:nth-child(4),
- .photo:nth-child(3) {
-   width: 33.333%;
- }
+  .photo:nth-child(2),
+  .photo:nth-child(4),
+  .photo:nth-child(3) {
+  width: 33.3333%;
+  }
 
 }
 
 @media only screen and (min-width: 60em) {
 
-.photo:first-of-type {
-  width: 66.666%;
-}
+  .photo:first-of-type {
+    width: 66.6666%;
+  }
 
-.photo:nth-child(5) {
-  display: block;
-  width: 33.333%;
-}
+  .photo:nth-child(5) {
+    display: block;
+    width: 33.3333%;
+  }
 
 }
